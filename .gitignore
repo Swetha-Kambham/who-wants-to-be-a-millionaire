@@ -1,0 +1,42 @@
+# Android Studio & IntelliJ
+.idea/
+*.iml
+
+# Build output
+/build/
+*/build/
+
+# Local configuration
+local.properties
+
+# Gradle
+.gradle/
+gradle-app.setting
+gradle-wrapper.properties
+gradlew
+gradlew.bat
+
+# Signing keys (do not commit)
+*.jks
+*.keystore
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log and crash files
+*.log
+
+# Generated files
+/captures/
+/output.json
+navigation.json
+
+# Kotlin-specific
+*.class
+
+# Compose preview cache
+.compose-cache/
+
+# Google services (if applicable)
+/google-services.json
